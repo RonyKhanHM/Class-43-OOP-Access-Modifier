@@ -1,0 +1,20 @@
+    --------------Access Modifire-------------
+    1. public (can be used from any where)
+    2. protected (can be used in own class and drived class(child class))
+    3. privet (can be used only in own class)
+
+
+    Problem:
+    1. Create a class Person in PHP with the following requirements:
+    2. It should have three properties: name, age, and password.
+    3. The name property should be accessible from anywhere.
+    4. The age property should be accessible only within the class and its subclasses (Childclass).
+    5. The password property should be accessible only within the class itself.
+
+    6. Create a subclass (childclass) Employee that extends Person.
+    7. In the Employee class, create a method to set the age, name, password property of the Person class.
+    8. Demonstrate the use of access modifiers by attempting to access each property from outside the class.
+
+
+    $object = new Employee();
+    $object->
